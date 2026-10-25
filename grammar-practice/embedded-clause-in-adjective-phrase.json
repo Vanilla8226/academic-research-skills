@@ -1,0 +1,46 @@
+{
+  "title": "Practice: an embedded clause in an adjective phrase",
+  "exercises": [
+    {
+      "structure": "An embedded clause modifying an adjective phrase",
+      "source": [
+        {
+          "found": true,
+          "file": "EnglishSyntax2.pdf",
+          "pdf_page": "2-3",
+          "book_pages": "107-108",
+          "section": "§19.3.3.1 Subordinate/Embedded adverb clauses",
+          "rule": "In the form of a finite Wh-clause, a non-finite to-infinitive clause, or an adverb clause can be used to complement or modify a head adjective (headA), i.e. to be an adjective complement/post-modifier.",
+          "lecture_examples": [
+            "They were hopeful (that the weather would change).",
+            "She is indifferent (whether you come or not)."
+          ]
+        },
+        {
+          "found": true,
+          "file": "EnglishSyntax2.pdf",
+          "pdf_page": 9,
+          "book_pages": "120",
+          "section": "§30 Adjective complements vs. post-adjectival modifiers",
+          "rule": "The obligatory post-adjectival modifier should be called THE COMPLEMENT of the headA in a predicative AP to be distinguished from any possible optional post-adjectival modifier of the headA."
+        }
+      ],
+      "task": "Write a sentence with an intensive verb (be, seem, feel...) followed by a predicative AP, in which a finite clause comes after the head adjective and completes or modifies it. Then decide: could your clause be left out?",
+      "hint": "Choose an adjective of feeling or knowing and follow it with a that-, if- or whether-clause. Then test it: if the sentence still means the same without the clause, the clause is an optional post-modifier; if not, it is the adjective's complement.",
+      "answers": [
+        {
+          "sentence": "The lecturer was conscious that many students could not follow her accent.",
+          "highlight": ["that many students could not follow her accent"],
+          "analysis": "[S [NP The lecturer] [VP [V[intens] was] [AP[sC] [headA conscious] [S'[finite clause] [Comp that] [S [NP many students] [VP could not follow her accent]]]]]]",
+          "explanation": "The that-clause comes after the head adjective 'conscious' inside the predicative AP, with the same tree shape as (39)a-f on book p. 108. Here it is obligatory: 'The lecturer was conscious.' changes the meaning (= awake). By §30 it is therefore the complement of headA, and by §15.3 an embedded clause, because it can't be left out."
+        },
+        {
+          "sentence": "The students were relieved that the exam had been postponed.",
+          "highlight": ["that the exam had been postponed"],
+          "analysis": "[S [NP The students] [VP [V[intens] were] [AP[sC] [headA relieved] [S'[finite clause] [Comp that] [S [NP the exam] [VP had been postponed]]]]]]",
+          "explanation": "Same tree shape, but this clause is optional: 'The students were relieved.' is still complete and keeps its meaning. By §30.1 it is a post-adjectival modifier, like 'anxious that no one should accuse him of laziness' on book p. 120. If your lecturer counts only obligatory clauses as 'embedded', the first sentence is the safer answer."
+        }
+      ]
+    }
+  ]
+}
